@@ -1,13 +1,13 @@
 <script setup>
-
+  
 </script>
 
 <template>
-
-  <h2>This is a component</h2>
-
+  <div>
+    <h1>Home Page</h1>  
+  </div>
 </template>
 
 <style scoped>
-
+  
 </style>
