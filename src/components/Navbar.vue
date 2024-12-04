@@ -8,11 +8,11 @@
   
   <nav class="navbar-container">
     <ul class="navbar-items">
-      <router-link to="/" class="navabr-item">INICIO</router-link>
-      <router-link to="/about" class="navabr-item">ABOUT ME</router-link>
-      <li class="navabr-item">SERVICES</li>
-      <li class="navabr-item">PROJECTS</li>
-      <li class="navabr-item">CONTACT US</li>
+      <router-link to="/" class="navbar-item">HOME</router-link>
+      <router-link to="/about" class="navbar-item">ABOUT ME</router-link>
+      <router-link to="/services" class="navbar-item">SERVICES</router-link>
+      <router-link to="/projects" class="navbar-item">PROJECTS</router-link>
+      <router-link to="/contact" class="navbar-item">CONTACT US</router-link>
     </ul>
   </nav>
 
@@ -20,16 +20,19 @@
 
 <style scoped>
   
-  .navbar-container {
+  .navbar-container { 
     display: flex;
+    flex-direction: column;
     background-color: #000;
-    margin: 0 auto;
   }
   .navbar-items {
     display: flex;
-    flex-direction: row;
     justify-content: flex-end;
-    padding-right: 20px;
+    gap: 20px;
+    color: #fff;
+  }
+  .navbar-item {
+    text-decoration: none;
     color: #fff;
   }
 
