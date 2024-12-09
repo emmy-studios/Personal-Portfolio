@@ -58,7 +58,11 @@
   body.dark .navbar-container {
     background-color: #000;
     color: #fff;
-  } 
+  }
+  body.dark .main-container {
+    background-color: #000;
+    color: #fff;
+  }
 
   .navbar-container {
     display: flex;
